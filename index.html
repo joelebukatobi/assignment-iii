@@ -1,0 +1,277 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Assigment III</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbrand">
+      <h3 class="heading-3">Assignment III</h3>
+    </div>
+    <ul class="nav-list">
+      <li class="nav-item">Joel Ebuka Tobi</li>
+      <li class="nav-item">Github</li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="main">
+      <div class="group" id="date">
+        <div class="description">
+          <h3 class="heading-3">Input Date</h3>
+          <p class="paragraph">Date in HTML is a type or attribute that's specific to the <code
+              class="code">&ltinput type="date"&gt;</code> element. It defines a
+            date with no timezone and it's output varies from one browser or platform to another</p>
+        </div>
+        <form class="form">
+          <label class="label" for="date" id="date">Date</label>
+          <input class="input" type="date">
+        </form>
+      </div>
+      <div class="group" id="datetime">
+        <div class="description">
+          <h3 class="heading-3">Input Datetime</h3>
+          <p class="paragraph">
+            Datetime in HTML is a type or attribute that's specific to the <code
+              class="code">&ltinput type="datetime"&gt;</code> element. It defines a control for
+            entering a date and time hour, minute, second and fraction of a second) as well as timezone, but its been
+            deprecated
+            <br><br>
+            The feature is
+            obsolete even though it might still work in some old browsers
+          </p>
+        </div>
+        <form class="form">
+          <label class="label" for="date" id="date">Datetime</label>
+          <input class="input" type="datetime">
+          <label for="date" class="error">This feature is obsolete</label>
+        </form>
+      </div>
+      <div class="group" id="datetime-local">
+        <div class="description">
+          <h3 class="heading-3">Input Datetime-Local</h3>
+          <p class="paragraph">
+            Date in HTML is a type or attribute that's specific to the <code
+              class="code">&ltinput type="datetime-local"&gt;</code> element. It defines input controls that let
+            the user easily enter both a date and a time, including the year, month, and day as well as the time in
+            hours and minutes.
+          </p>
+        </div>
+        <form class="form">
+          <label class="label" for="date" id="date">Datetime-Local</label>
+          <input class="input" type="datetime-local">
+        </form>
+      </div>
+      <div class="group" id="month">
+        <div class="description">
+          <h3 class="heading-3">Input Month</h3>
+          <p class="paragraph">
+            Date in HTML is a type or attribute that's specific to the input element. It defines controls for <code
+              class="code">&ltinput type="month"&gt;</code>
+            fields that let the user enter a month and year allowing a month and year to be easily entered. The value is
+            a string whose value is in the format "YYYY-MM", where YYYY is the four-digit year and MM is the month
+            number.
+          </p>
+        </div>
+        <form class="form">
+          <label class="label" for="month" id="date">Month</label>
+          <input class="input" type="month">
+        </form>
+      </div>
+      <div class="group" id="week">
+        <div class="description">
+          <h3 class="heading-3">Input Week</h3>
+          <p class="paragraph">
+            Date in HTML is a type or attribute that's specific to the <code
+              class="code">&ltinput type="week"&gt;</code> element. It defines control for input
+            fields of the type week that allows easy entry of a year plus the week number during the year
+          </p>
+        </div>
+        <form class="form">
+          <label class="label" for="date" id="date">Week</label>
+          <input class="input" type="week">
+        </form>
+      </div>
+      <div class="group" id="textarea">
+        <div class="description">
+          <h3 class="heading-3">Textarea</h3>
+          <p class="paragraph">
+            The <code class="code">&lt;textarea&gt;</code> is one of the form element and is more often than not nested
+            inside of a <code class="code">&ltform&gt;</code> element. it is a multiline plain-tex editing control, that
+            is mainly used to allow users enter a sizeable amount of text
+          </p>
+        </div>
+        <form class="form">
+          <label class="label" for="message" id="message">Message</label>
+          <textarea class="textarea" name="message" id="" cols="10" rows="10"
+            placeholder="Hi, there I'm Joel Ebuka Tobi and I'd like you to help me build a website for my restaurnt based in the north of Maitama"></textarea>
+        </form>
+      </div>
+      <div class="group" id="dropdown">
+        <div class="description">
+          <h3 class="heading-3">Drop Down List (Multiple Select)</h3>
+          <p class="paragraph">
+            The <code class="code">&lt;select&gt;</code> is another form element and is used as an input option
+            providing a multitude of options;
+          </p>
+        </div>
+        <form class="form">
+          <label class="label" for="programming" id="programming"></label>
+          <select class="select" name="programming" id="programming">
+            <option value="">Please pick a programming langugae</option>
+            <option value="dog">JavaScript</option>
+            <option value="cat">PhP</option>
+            <option value="hamster">Elixr</option>
+            <option value="parrot">Go</option>
+            <option value="spider">Node.js</option>
+            <option value="goldfish">Ruby On Rails</option>
+          </select>
+        </form>
+      </div>
+      <div class="group" id="validation">
+        <div class="description">
+          <h3 class="heading-3">HTML Validation</h3>
+          <p class="paragraph">
+            HTML Validation refers to the very first validation done before client side validation. This is achieved
+            using an attribute <code class="code">required</code> which is mainly used with the <code
+              class="code">&ltinput&gt;</code> tag as well as other form elements such as the <code
+              class="code">&lttextarea&gt;</code> element and the <code class="code">&ltselect&gt;</code> element
+          </p>
+        </div>
+        <form class="form">
+          <label class="label" for="email" id="email">Email</label>
+          <input class="input" type="email" required>
+        </form>
+      </div>
+      <div class="group" id="upload">
+        <div class="description">
+          <h3 class="heading-3">File Upload</h3>
+          <p class="paragraph">
+            In HTML File uploads are done using the <code class="code">&ltinput&gt;</code> element with the type of
+            <code class="code">file</code> it also has other attributes such as <code class="code">accept</code>
+            that determine the file type that can be uploaded
+          </p>
+        </div>
+        <form class="form">
+          <label class="label" for="document">Choose a Document</label>
+          <input class="input" name="document" id="document" type="file" required
+            accept="application/pdf,application/vnd.ms-excel">
+          <label for="document" class="error">Please select a PDF Document</label>
+        </form>
+      </div>
+      <div class="group" id="entities">
+        <div class="description">
+          <h3 class="heading-3">HTML Entities</h3>
+          <p class="paragraph">
+            HTML entities refer to a piece of string or text that generally begin with an (&) and ends with a semicolon
+            (;) These entities are used to display reserved characters. for instance the coypright &copy; is <code
+              class="code">&ampcopy&semi;</code> and the &dollar; is <code class="code">&ampdollar&semi;</code>
+          </p>
+        </div>
+      </div>
+      <div class="group" id="quotation">
+        <div class="description">
+          <h3 class="heading-3">Quotation and Citation</h3>
+          <p class="paragraph">
+            In HTML quotations generally come in two formats, the
+            <code class="code">&lt;blockquote&gt;</code> which is used to indicate an enclosed text in an
+            extended quotation which more often than
+            not inludes a source which may be given using the
+            <code class="code">&lt;cite&gt;</code> attribute;
+          </p>
+        </div>
+        <div class="example">
+          <blockquote cite="https://www.huxley.net/bnw/four.html">
+            <p class="paragraph">Words can be like X-rays, if you use them properly—they’ll go through anything. You
+              read and you’re
+              pierced.</p>
+            <span class="span"> —Aldous Huxley, <cite>Brave New World</cite></span>
+          </blockquote>
+        </div>
+        <div class="description">
+          <p class="paragraph">
+            The second is the <code class="code">&lt;q&gt;</code> and it is intended for short quotations that don't
+            require paragraph breaks and is usually denoted with quotes
+          </p>
+        </div>
+        <div class="example">
+          <p class="paragraph">
+            Lorem ipsum dolor sit amet consectetur,
+            <q>adipisicing elit.</q> Mollitia eveniet aliquid blanditiis aperiam
+            pariatur sed architecto?
+          </p>
+        </div>
+      </div>
+      <div class="group" id="table">
+        <div class="description">
+          <h3 class="heading-3">Table</h3>
+          <p class="paragraph">
+            A table in HTML is usually denoted by the
+            <code class="code">&lt;table&gt;</code> element which is used to represent data in a tabluar form using rows
+            and columns. it has two major row elements which are <code class="code">&lt;thead&gt;</code> and <code
+              class="code">&lt;tbody&gt;</code> they both contain the <code class="code">&lt;tr&gt;</code> element which
+            in turn houses the <code class="code">&lt;th&gt;</code> for the <code class="code">&lt;thead&gt;</code> and
+            <code class="code">&lt;td&gt;</code> for the <code class="code">&lt;tbody&gt;</code>
+          </p>
+        </div>
+        <div class="example">
+          <table class="table">
+            <thead class="thead">
+              <tr>
+                <th>#</th>
+                <th>First</th>
+                <th>Last</th>
+                <th>Handle</th>
+              </tr>
+            </thead>
+            <tbody class="tbody">
+              <tr>
+                <th>1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th>2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th>3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="panel">
+      <ul class="panel-list">
+        <li class="panel-item"><a id="panel-link" href="#date">Date</a></li>
+        <li class="panel-item"><a id="panel-link" href="#datetime">Datetime</a></li>
+        <li class="panel-item"><a id="panel-link" href="#datetime-local">Datetime-local</a></li>
+        <li class="panel-item"><a id="panel-link" href="#month">Month</a></li>
+        <li class="panel-item"><a id="panel-link" href="#week">Week</a></li>
+        <li class="panel-item"><a id="panel-link" href="#textarea">Textarea</a></li>
+        <li class="panel-item"><a id="panel-link" href="#dropdown">Dropdown Lists</a></li>
+        <li class="panel-item"><a id="panel-link" href="#validation">HTML Validation</a></li>
+        <li class="panel-item"><a id="panel-link" href="#upload">File Upload</a></li>
+        <li class="panel-item"><a id="panel-link" href="#entities">HTML Entities</a></li>
+        <li class="panel-item"><a id="panel-link" href="#quotation">Quotation and Citation</a></li>
+        <li class="panel-item"><a id="panel-link" href="#table">Tables</a></li>
+        <li class="panel-item"><a id="panel-link" href="">Drag and Drop</a></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>

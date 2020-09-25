@@ -1,0 +1,15 @@
+{
+  "name": "assignment-iii",
+  "version": "1.0.0",
+  "description": "HTML Elemet Descriptions ",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist";
+  },
+  "author": "JetDev",
+  "license": "ISC",
+  "homepage": "https://joelebukatobi.github.io/assignment-iii",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
