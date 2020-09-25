@@ -4,7 +4,7 @@
   "description": "HTML Elemet Descriptions ",
   "main": "app.js",
   "scripts": {
-    "deploy": "gh-pages -d dist";
+    "deploy": "gh-pages -d dist"
   },
   "author": "JetDev",
   "license": "ISC",
